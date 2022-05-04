@@ -272,7 +272,6 @@ Gallery section
   @media screen and (min-width: 640px) {
   .gallery-center {
     grid-template-columns: 1fr;
-    /* grid-template-rows: repeat(4,200px); */
     column-gap: 5px;
   }
 }
@@ -311,4 +310,26 @@ Gallery section
    grid-area: f;
  }}
   
- 
+
+.link-more{
+  display: inline-block;
+  margin: 10px;
+  margin-left: 50%; 
+  text-decoration:none;
+  transform: translateX(-50%);
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #F6F2DE;
+  background: transparent;
+  
+  
+}
+
+.fa-camera-retro{
+  color: #F6F2DE;
+  font-size: 1rem;
+}
+
+.fa-camera-retro:hover{
+  color: #F9DA94;
+}
