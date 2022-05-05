@@ -333,3 +333,66 @@ Gallery section
 .fa-camera-retro:hover{
   color: #F9DA94;
 }
+
+ /* 
+====================
+Services section
+====================
+ */
+
+ .services{
+   min-height: 100vh;
+     background:#004B3F;
+
+ }
+
+ .services-title{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+   align-items: center;
+   color: #F6F2DE;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   padding: 1rem;
+   max-width: 1170px;
+   margin: 0 auto;
+   
+  }
+  .services-center{
+     width: 90vw;
+    margin: 70px auto;
+    max-width: 1170px;
+    background:#435e76a1;
+    padding: 0.5rem;
+  }
+  .single-service{
+    background: #d8def2;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px;
+    color: #273d52;
+  }
+
+  .single-service:hover{
+    background:#273d52;
+    color:#d8def2;
+  }
+  .single-service .underline{
+    margin: 0 auto;
+  }
+  
+  @media screen and (min-width: 640px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
