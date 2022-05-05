@@ -77,19 +77,37 @@
 
     <div class="gallery-center">
 
-      <img src="./img/img1.jpeg" class="gallery-img img-1" alt="">
-      <img src="./img/img2.jpeg" class="gallery-img img-2" alt="">
-      <img src="./img/img3.jpeg" class="gallery-img img-3" alt="">
-      <img src="./img/img4.jpeg" class="gallery-img img-4" alt="">
-      <img src="./img/img5.jpeg" class="gallery-img img-5" alt="">
-      <img src="./img/img6.jpeg" class="gallery-img img-6" alt="">
+      <img src="./img/img1.jpeg" class="gallery-img img-1" title="img-1" data-id="1" alt="">
+      <img src="./img/img2.jpeg" class="gallery-img img-2" title="img-2" data-id="2" alt="">
+      <img src="./img/img3.jpeg" class="gallery-img img-3" title="img-3" data-id="3" alt="">
+      <img src="./img/img4.jpeg" class="gallery-img img-4" title="img-4" data-id="4" alt="">
+      <img src="./img/img5.jpeg" class="gallery-img img-5" title="img-5" data-id="5" alt="">
+      <img src="./img/img6.jpeg" class="gallery-img img-6" title="img-6" data-id="6" alt="">
     </div>
     <a href="#more" class="link-more">more... <i class="fa-solid fa-camera-retro"></i></a>
   </section>
 
   <!-- modal -->
-  <div class="modal">
-
+  <div class="modal ">
+    <button class="close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="modal-content">
+      <!-- prev next buttons -->
+      <button class="prev-btn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="next-btn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <!-- content -->
+      <img src="./img/img1.jpeg" class="main-img" alt="">
+      <h3 class="image-name">image name</h3>
+      <div class="modal-images">
+        <img src="./img/img1.jpeg" class="modal-img selected" title="image-1" id="1" alt="">
+        <img src="./img/img2.jpeg" class="modal-img" title="img-2" id="2" alt="">
+      </div>
+    </div>
   </div>
   <!-- end of section gallery -->
   <!-- services section -->

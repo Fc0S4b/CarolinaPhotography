@@ -40,3 +40,9 @@ scrollLinks.forEach((link) => {
     });
   });
 });
+
+//modal
+
+function Gallery(element) {}
+
+const modal = new Gallery(document.querySelector('.gallery-center'));
