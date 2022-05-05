@@ -94,7 +94,8 @@ box-shadow: inset 0px -4px 23px -7px rgba(1,20,17,0.87);
 }
 .links li:hover, .switch:hover{
   background: var(--background-clr-light);
-  transform: scale(1.05)
+  padding-top: 0.7rem;
+  
 }
 .links li a{
   text-decoration: none;
@@ -107,6 +108,7 @@ box-shadow: inset 0px -4px 23px -7px rgba(1,20,17,0.87);
 .switch{
   text-align: center;
   color: var(--colorLink);
+  
 }
 .btn-angle{
   display: none;
