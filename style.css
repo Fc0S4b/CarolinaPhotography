@@ -466,7 +466,7 @@ Modal section
 
  .modal-images{
    display: grid;
-   grid-template-columns: repeat(5, 1fr);
+   grid-template-columns: repeat(6, 1fr);
    gap: 5px;
  }
 
@@ -612,3 +612,46 @@ Footer section
  .footer-icons i:hover{
   color:var(--colorP);
  }
+
+ /* 
+====================
+Photo Gallery section
+====================
+ */
+
+ .photo-gallery{
+   height: calc(100vh - 38px);
+     background: var(--background-clr);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .photo-gallery-center{
+   color: var(--colorP);
+   text-transform: capitalize;
+   letter-spacing: var(--letterSpacing);
+   padding: 1rem;
+   max-width: 600px;
+   text-align: center;
+   
+  }
+  .photo-gallery-center h2{
+    padding: 0.7rem;
+  }
+  .photo-under{
+    margin: 0 auto;
+  }
+  .photo-gallery-center p{
+    padding: 1rem;
+  }
+
+  .photo-gallery-center a{
+    text-decoration: none;
+    color: var(--colorP);
+  }
+  .photo-gallery-center a:hover{
+    text-decoration: none;
+    color: var(--backgroundUnder);
+  }
