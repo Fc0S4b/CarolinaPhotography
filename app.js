@@ -79,6 +79,14 @@ Gallery.prototype.openModal = function (selectedImage, list) {
     .join('');
   this.modal.classList.add('open');
   this.closeBtn.addEventListener('click', this.closeModal);
+  this.modal.addEventListener(
+    'click',
+    function (e) {
+      if (e.target.classList.contains('open')) {
+        this.closeModal();
+      }
+    }.bind(this)
+  );
   this.nextBtn.addEventListener('click', this.nextImage);
   this.prevBtn.addEventListener('click', this.prevImage);
   this.modalImages.addEventListener('click', this.chooseImage);
